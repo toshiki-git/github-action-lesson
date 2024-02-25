@@ -1,0 +1,9 @@
+{
+  // If you want to format your code with prettier before committing, enable the following.
+  // "editor.defaultFormatter": "esbenp.prettier-vscode",
+  // "editor.formatOnSave": true,
+
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  }
+}
