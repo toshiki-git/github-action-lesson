@@ -1,0 +1,19 @@
+name: Frontend task
+description: Create a frontend task to be assigned to the frontend members.
+title: "[Frontend task]: "
+body:
+  - type: markdown
+    attributes:
+      value: Please fill out this form as completely as possible.
+  - type: textarea
+    attributes:
+      label: Describe the task you'd like to request
+      description: A clear and concise description of what you want and what your use case is.
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: Describe the context why you want to do it
+      description: Please write the context on that task, as details will be lost over time.
+    validations:
+      required: true
